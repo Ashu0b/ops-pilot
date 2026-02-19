@@ -1,6 +1,8 @@
 ## OpsPilot: AI-Powered Incident Response Dashboard
 
-Live API Deployment: https://ops-pilot-api.onrender.com
+Live API Deployment: https://ops-pilot-api.onrender.com 
+
+Live Application : https://ops-pilot-ui.onrender.com
 
 Problem Statement
 DevOps teams often waste time manually analyzing repetitive server logs. OpsPilot automates this by using Generative AI to parse raw stack traces, identify root causes, and suggest code fixes immediately.
