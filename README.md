@@ -1,4 +1,7 @@
 ## OpsPilot: AI-Powered Incident Response Dashboard
+
+Live Application : http://34.212.59.6 
+
 Problem Statement
 DevOps teams often waste time manually analyzing repetitive server logs. OpsPilot automates this by using Generative AI to parse raw stack traces, identify root causes, and suggest code fixes immediately.
 
