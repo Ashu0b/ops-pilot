@@ -21,7 +21,6 @@ import styles from "./dashboard.module.scss";
 const DashboardComponent = () => {
   const dispatch = useAppDispatch();
   const { data, loading, error } = useAppSelector((state) => state.incidents);
-
   useEffect(() => {
     dispatch(fetchIncidents());
   }, [dispatch]);
@@ -60,7 +59,7 @@ const DashboardComponent = () => {
           </TableHead>
 
           <TableBody>
-            {data.length > 0 ? (
+            {Array.isArray(data) && data.length > 0 ? (
               data.map((row) => (
                 <TableRow key={row.id} hover>
                   <TableCell>{row.title}</TableCell>
